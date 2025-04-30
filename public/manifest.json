@@ -5,7 +5,8 @@
     "description": "A simple browsing habit tracker",
     "permissions": ["storage", "activeTab","tabs", "webNavigation","favicon"],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "type": "module"
     },
     "content_scripts": [
         {
